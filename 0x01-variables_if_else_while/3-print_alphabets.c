@@ -13,7 +13,7 @@ int main(void)
 	d = 'A';
 	while
 		(c <= 'z') {
-			puchar(c);
+			putchar(c);
 			c++;
 		}
 	while 
@@ -21,7 +21,7 @@ int main(void)
 			putchar(d);
 			d++;
 		}
-	putcha('\n');
+	putchar('\n');
 	return (0);
 
 }
